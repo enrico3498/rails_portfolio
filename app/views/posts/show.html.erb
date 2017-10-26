@@ -1,0 +1,11 @@
+<ol class="breadcrumb">
+  <li><%= link_to 'Zurück zur Übersicht', root_path %></li>
+</ol>
+<h1><%= @post.title %></h1>
+<p><%= @post.body %></p>
+<hr>
+<%= link_to "Post bearbeiten", edit_post_path(@post), :class => 'btn btn-default' %>
+<%= link_to "Post entfernen", post_path(@post),
+                        method: :delete,
+                        data: {confirm: 'Bist du sicher, dass du diesen Post löschen willst?'},
+                        :class => 'btn btn-danger' %>

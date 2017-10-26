@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+ li{
+   list-style-type: none;
+ }
+
+ a{
+   text-decoration: none;
+   color: inherit;
+ }
+
+
+
+.grid-container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 160px 5fr;
+  font-family: Arial;
+  min-width: 100%;
+}
+
+nav{
+  background-color: #072b46;
+  padding: 1em;
+}
+
+nav .nav-container{
+  display: grid;
+  grid-template-rows: 50px 80px;
+  position: fixed;
+  height: 95vh;
+}
+
+nav .nav-container .nav-logo{
+  pointer-events: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+nav .nav-container ul li a {
+  color: #aaa;
+  line-height: 1.3;
+}
+
+nav .nav-container footer{
+  align-self: end;
+}
+
+nav .nav-container footer ul li a{
+  color: #666;
+}
+
+nav .nav-container ul li a:hover,
+nav .nav-container footer ul li a:hover{
+  color: #fff;
+}
+*/

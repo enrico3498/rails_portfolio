@@ -5303,3 +5303,12 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 479ms (Views: 450.6ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-11-03 10:58:48 +0100
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 340ms (Views: 311.3ms | ActiveRecord: 1.6ms)
+
+
